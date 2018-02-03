@@ -1,0 +1,26 @@
+{
+  "name": "simple-settings",
+  "version": "0.0.1",
+  "description": "Simple module for managing and setting object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgwozdz/simple-settings.git"
+  },
+  "keywords": [
+    "settings"
+  ],
+  "author": "Rich Gwozdz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rgwozdz/simple-settings/issues"
+  },
+  "homepage": "https://github.com/rgwozdz/simple-settings#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  }
+}
