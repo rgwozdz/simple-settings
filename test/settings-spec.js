@@ -1,18 +1,19 @@
 "use strict";
 const chai = require("chai");
 const expect = chai.expect;
+const Settings = require("../index");
 
 describe('Settings suite', function () {
 
-  describe('Instantiate Setting class', function(){
+  describe('Instantiate Settings class', function(){
 
-    it("Setting should instantiate without error", function () {
+    it("Settings should instantiate without error", function () {
 
     });
 
   });
 
-  describe('Setting "get" method', function(){
+  describe('Settings "get" method', function(){
 
     it("Should return top-level primitives", function () {
 
