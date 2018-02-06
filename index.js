@@ -1,3 +1,5 @@
+"use strict";
+
 let _settings = new WeakMap();
 
 class Settings {
