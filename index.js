@@ -23,6 +23,9 @@ class Settings {
     if(typeof settings[key] === 'undefined') {
       // Handle a key that isn't found
       throw new Error (`Setting "${key}" is undefined.`)
+    } else if (settings[key] instanceof Array) {
+      // arrays
+      return Object.freeze(settings[key]);
     } else if (settings[key] === null || settings[key] instanceof Array || settings[key] instanceof RegExp) {
       // handle null, arrays, and regex
       return settings[key];
